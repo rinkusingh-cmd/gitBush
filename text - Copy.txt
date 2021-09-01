@@ -1,0 +1,8 @@
+git config --global user.name "rinku singh"
+git config --global user.email "rinkusingh541999@gmail.com"
+
+Generating SSH key
+ssh-keygen -t rsa -b 4096 -C "[rinkusingh541999@gami]"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+tail ~/.ssh/id_rsa.pub
